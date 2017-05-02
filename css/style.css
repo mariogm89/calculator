@@ -1,0 +1,116 @@
+/* Calculadora JS */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.content{
+    position: relative;
+    top: 80px;
+}
+.text{
+    font-size: 30px;
+    font-family: Arial,Helvetica;
+    color: white;
+    border: 0px;
+    background: #FAAC58;
+    width: 325.8px;
+    height: 80px;
+}
+.column1{
+    font-size: 30px;
+    font-family: Arial,Helvetica;
+    color: white;
+    border: 0px;
+    background: #FACC2E;
+    width: 80px;
+    height: 80px;
+}
+.column2{
+    font-size: 30px;
+    font-family: Arial,Helvetica;
+    color: white;
+    border: 0px;
+    background: #F7D358;
+    width: 80px;
+    height: 80px;
+}
+.submit{
+    font-size: 30px;
+    font-family: Arial,Helvetica;
+    color: white;
+    border: 0px;
+    background: #FFBF00;
+    width: 325.8px;
+    height: 80px;
+}
+
+/* Calculadora normal y para IVA */
+
+*{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #798e94;
+}
+body{
+    width: 300px;
+    margin: auto;
+    background-color: #F5ECCE;
+}
+.calc{
+    border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 45px 45px 20px;
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #F3E2A9 inset;
+}
+.calc label{
+    display: block;
+    font-weight: bold;
+}
+.calc div{
+    margin-bottom: 15px;
+}
+.calc input[type='text']{
+    padding: 7px 6px;
+    width: 120px;
+    border: 1px solid #F3E2A9;
+    resize: none;
+    box-shadow:0 0 0 3px #F3E2A9;
+    margin: 5px 0;
+}
+.calc select{
+    padding: 7px 6px;
+    width: 80px;
+    border: 1px solid #F3E2A9;
+    resize: none;
+    box-shadow:0 0 0 3px #F3E2A9;
+    margin: 5px 0;
+}
+.calc input[type='text']:focus{
+    outline: none;
+    box-shadow:0 0 0 3px #FFBF00;
+}
+.calc input[type='submit'], .calc input[type='button']{
+    border: 1px solid #CED5D7;
+    box-shadow:0 0 0 3px #EEF5F7;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: grey;
+    background: #FACC2E;
+    background: -moz-linear-gradient(top, #FACC2E 0%, #F5DA81 100%);
+    background: -webkit-linear-gradient(top, #FACC2E 0%,#F5DA81 100%);
+}
+.calc input[type='submit']:hover, .calc input[type='button']:hover{
+    background: #edfcff;
+    background: -moz-linear-gradient(top, #F5DA81 0%, #F5ECCE 100%);
+    background: -webkit-linear-gradient(top, #F5DA81 0%,#F5ECCE 100%);
+}
+.calc input[type='submit']:active, .calc input[type='button']:active{
+    background: #cfe6ef;
+    background: -moz-linear-gradient(top, #F7D358 0%, #F5DA81 100%);
+    background: -webkit-linear-gradient(top, #F7D358 0%,#F5DA81 100%);
+}
+
